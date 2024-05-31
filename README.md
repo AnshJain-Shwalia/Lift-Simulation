@@ -1,21 +1,10 @@
 # Lift-Simulation
-Create a web app where you can simulate lift mechanics for a client
 
-# UI Example
-![Lift Simulation Example](Lift-Simulation-Example.png "Lift Simulation Example")
+This project is a Lift Simulator that, upon receiving the number of floors and lifts as input, generates an interface with the corresponding number of lifts and floors. This simulator demonstrates the lift movements in response to button presses.
 
-# Requirements
-  1. Have a page where you input the number of floors and lifts from the user
-  2. An interactive UI is generated, where we have visual depictions of lifts and buttons on floors
-  3. Upon clicking a particular button on the floor, a lift goes to that floor
+In this version, each elevator has an up and down button on every floor, and the elevator whose button is pressed
+responds to the call.
 
-  Milestone 1:
-   - Data store that contains the state of your application data
-   - JS Engine that is the controller for which lift goes where
-   - Dumb UI that responds to controller's commands
-   
-  Milestone 2:
-   - Lift having doors open in 2.5s, then closing in another 2.5s
-   - Lift moving at 2s per floor
-   - Lift stopping at every floor where it was called
-   - Mobile friendly design
+This is V1, hosted [here](https://main--zesty-peony-c9432e.netlify.app/).
+
+V2 repo is [here](https://github.com/AnshJain-Shwalia/Lift-Simulation-Vercel), and is hosted [here](https://lift-simulation-lilac-two.vercel.app/).
